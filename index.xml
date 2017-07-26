@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John T Kristoff on John T Kristoff</title>
+    <link>https://aharp.iorc.depaul.edu/index.xml</link>
+    <description>Recent content in John T Kristoff on John T Kristoff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 John T Kristoff</copyright>
+    <lastBuildDate>Sun, 23 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REN-ISAC DNS over TCP survey</title>
+      <link>https://aharp.iorc.depaul.edu/post/ri-dnstcp-survey/</link>
+      <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aharp.iorc.depaul.edu/post/ri-dnstcp-survey/</guid>
+      <description>&lt;p&gt;In April of this year I conducted an informal two-question survey aimed
+at the general membership population of the &lt;a href=&#34;//ren-isac.net/&#34; target=&#34;_blank&#34;&gt;REN-ISAC&lt;/a&gt;
+community.  The intent was to gather personal positions and associated
+member institution stances on DNS over TCP (i.e. should it be filtered,
+restricted, or unfettered).  I was interested in gathering Internet
+community perceptions after a recently submitted &lt;a href=&#34;//tools.ietf.org/html/draft-ietf-dnsop-dns-tcp-requirements&#34; target=&#34;_blank&#34;&gt;Internet-Draft on DNS
+Transport over
+TCP&lt;/a&gt; was
+adopted by the IETF dnsop working group.  REN-ISAC participants are
+generally well regarded, having both a breadth of knowledge and above
+average technical expertise.  I had hoped the results would demonstrate
+the &amp;ldquo;best case&amp;rdquo; representation of any organized security community.  By
+best case, I mean those who realize the pitfalls of filtering or
+restricting DNS over TCP traffic, and who would generally accept that it
+ought to be allowed unfettered.&lt;/p&gt;
+
+&lt;p&gt;The survey was conducted online, solicited through an email link that
+reached all subscribed members, of which there were approximately 1700
+at the time.  The survey link was available for approximately one week.
+A little over 60 people responded, for a return rate of approximately
+3.5%.&lt;/p&gt;
+
+&lt;p&gt;There were only two survey questions, both with three answer choices
+each.  Only one answer per question was allowed.  The questions and
+their respective answer choices are shown below.  Following each answer
+choice in bold are the representative tallies of the voting results.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Question I&lt;/strong&gt;: Which statement most closely reflects your current
+thinking on the role, use, and handling of DNS over TCP traffic on
+the Internet?&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It should be blocked everywhere / it is unnecessary or unwanted.
+&lt;strong&gt;[6%]&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;It should be restricted in use to DNS zone transfers between
+authorized hosts only (i.e. masters and slaves). &lt;strong&gt;[38%]&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;It should be allowed wherever DNS communications are permitted.
+&lt;strong&gt;[56%]&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Question II&lt;/strong&gt;: Which statement most closely reflects how your
+institution treats DNS over TCP traffic?&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It is allowed wherever DNS communications are permitted.
+&lt;strong&gt;[79%]&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;It is restricted in use to DNS zone transfers between authorized
+hosts only (i.e. masters and slaves). &lt;strong&gt;[18%]&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;It is blocked everywhere / it is unnecessary or unwanted.
+&lt;strong&gt;[3%]&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The results weren&amp;rsquo;t too surprising, at least not to me.  If I were to
+have guessed ahead of time, I might have overestimated the population of
+those who have a desire to block DNS over TCP everywhere.  Perhaps the
+results reflect a bias of the the research and education (R&amp;amp;E)
+community, which historically leans toward the less restrictive.&lt;/p&gt;
+
+&lt;p&gt;It is worth pointing out the difference in answers between the two
+questions.  What the institution does and what the person answering
+prefers shows that a significant number of respondents would be more
+restrictive than what occurs in practice.  This difference is likely
+attributable in part to the type of respondent polled.   REN-ISAC
+members are primarily information security staff.  Security personnel
+probably tend to skew towards a default deny stance more than their
+colleagues in other departments.&lt;/p&gt;
+
+&lt;p&gt;If I could affect any sort of change in attitude and practice, it would
+be to enlighten those who mistakenly believe DNS over TCP is only ever
+used for zone transfers or to convince those who might limit DNS over
+TCP for any reason to reconsider.  With any luck, the IETF document I&amp;rsquo;m
+working on well help do just that.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DNS Transport over TCP - Operational Requirements</title>
+      <link>https://aharp.iorc.depaul.edu/publication/draft-ietf-dnsop-dns-tcp-requirements/</link>
+      <pubDate>Tue, 20 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aharp.iorc.depaul.edu/publication/draft-ietf-dnsop-dns-tcp-requirements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNS Transport over TCP Operational Requirements</title>
+      <link>https://aharp.iorc.depaul.edu/talk/ietf98-dnstcp/</link>
+      <pubDate>Mon, 27 Mar 2017 19:00:00 +0000</pubDate>
+      
+      <guid>https://aharp.iorc.depaul.edu/talk/ietf98-dnstcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Potential Abuse of IGMP</title>
+      <link>https://aharp.iorc.depaul.edu/publication/on-the-potential-abuse-of-igmp/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aharp.iorc.depaul.edu/publication/on-the-potential-abuse-of-igmp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DePaul University Wireless</title>
+      <link>https://aharp.iorc.depaul.edu/talk/dpu2016-wireless/</link>
+      <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://aharp.iorc.depaul.edu/talk/dpu2016-wireless/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

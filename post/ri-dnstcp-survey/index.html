@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.18.1" />
+  <meta name="author" content="John T Kristoff">
+  
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.0/css/academicons.min.css" integrity="sha512-GGGNUPDhnG8LEAEDsjqYIQns+Gu8RBs4j5XGlxl7UfRaZBhCCm5jenJkeJL8uPuOXGqgl8/H1gjlWQDRjd3cUQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  
+
+  <link rel="alternate" href="https://aharp.iorc.depaul.edu/index.xml" type="application/rss+xml" title="John T Kristoff">
+  <link rel="feed" href="https://aharp.iorc.depaul.edu/index.xml" type="application/rss+xml" title="John T Kristoff">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://aharp.iorc.depaul.edu/post/ri-dnstcp-survey/">
+
+  
+
+  <title>REN-ISAC DNS over TCP survey | John T Kristoff</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">John T Kristoff</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#talks">
+            
+            <span>Talks</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Papers</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Blog</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">REN-ISAC DNS over TCP survey</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2017-07-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2017-07-25
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2faharp.iorc.depaul.edu%2fpost%2fri-dnstcp-survey%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=REN-ISAC%20DNS%20over%20TCP%20survey&amp;url=https%3a%2f%2faharp.iorc.depaul.edu%2fpost%2fri-dnstcp-survey%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2faharp.iorc.depaul.edu%2fpost%2fri-dnstcp-survey%2f&amp;title=REN-ISAC%20DNS%20over%20TCP%20survey"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2faharp.iorc.depaul.edu%2fpost%2fri-dnstcp-survey%2f&amp;title=REN-ISAC%20DNS%20over%20TCP%20survey"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=REN-ISAC%20DNS%20over%20TCP%20survey&amp;body=https%3a%2f%2faharp.iorc.depaul.edu%2fpost%2fri-dnstcp-survey%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      <p>In April of this year I conducted an informal two-question survey aimed
+at the general membership population of the <a href="//ren-isac.net/" target="_blank">REN-ISAC</a>
+community.  The intent was to gather personal positions and associated
+member institution stances on DNS over TCP (i.e. should it be filtered,
+restricted, or unfettered).  I was interested in gathering Internet
+community perceptions after a recently submitted <a href="//tools.ietf.org/html/draft-ietf-dnsop-dns-tcp-requirements" target="_blank">Internet-Draft on DNS
+Transport over
+TCP</a> was
+adopted by the IETF dnsop working group.  REN-ISAC participants are
+generally well regarded, having both a breadth of knowledge and above
+average technical expertise.  I had hoped the results would demonstrate
+the &ldquo;best case&rdquo; representation of any organized security community.  By
+best case, I mean those who realize the pitfalls of filtering or
+restricting DNS over TCP traffic, and who would generally accept that it
+ought to be allowed unfettered.</p>
+
+<p>The survey was conducted online, solicited through an email link that
+reached all subscribed members, of which there were approximately 1700
+at the time.  The survey link was available for approximately one week.
+A little over 60 people responded, for a return rate of approximately
+3.5%.</p>
+
+<p>There were only two survey questions, both with three answer choices
+each.  Only one answer per question was allowed.  The questions and
+their respective answer choices are shown below.  Following each answer
+choice in bold are the representative tallies of the voting results.</p>
+
+<blockquote>
+<p><strong>Question I</strong>: Which statement most closely reflects your current
+thinking on the role, use, and handling of DNS over TCP traffic on
+the Internet?</p>
+
+<ol>
+<li>It should be blocked everywhere / it is unnecessary or unwanted.
+<strong>[6%]</strong></li>
+<li>It should be restricted in use to DNS zone transfers between
+authorized hosts only (i.e. masters and slaves). <strong>[38%]</strong></li>
+<li>It should be allowed wherever DNS communications are permitted.
+<strong>[56%]</strong></li>
+</ol>
+
+<p><strong>Question II</strong>: Which statement most closely reflects how your
+institution treats DNS over TCP traffic?</p>
+
+<ol>
+<li>It is allowed wherever DNS communications are permitted.
+<strong>[79%]</strong></li>
+<li>It is restricted in use to DNS zone transfers between authorized
+hosts only (i.e. masters and slaves). <strong>[18%]</strong></li>
+<li>It is blocked everywhere / it is unnecessary or unwanted.
+<strong>[3%]</strong></li>
+</ol>
+</blockquote>
+
+<p>The results weren&rsquo;t too surprising, at least not to me.  If I were to
+have guessed ahead of time, I might have overestimated the population of
+those who have a desire to block DNS over TCP everywhere.  Perhaps the
+results reflect a bias of the the research and education (R&amp;E)
+community, which historically leans toward the less restrictive.</p>
+
+<p>It is worth pointing out the difference in answers between the two
+questions.  What the institution does and what the person answering
+prefers shows that a significant number of respondents would be more
+restrictive than what occurs in practice.  This difference is likely
+attributable in part to the type of respondent polled.   REN-ISAC
+members are primarily information security staff.  Security personnel
+probably tend to skew towards a default deny stance more than their
+colleagues in other departments.</p>
+
+<p>If I could affect any sort of change in attitude and practice, it would
+be to enlighten those who mistakenly believe DNS over TCP is only ever
+used for zone transfers or to convince those who might limit DNS over
+TCP for any reason to reconsider.  With any luck, the IETF document I&rsquo;m
+working on well help do just that.</p>
+    </div>
+  </div>
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 John T Kristoff &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
