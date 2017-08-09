@@ -11,6 +11,92 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>FIRST DNS over TCP survey</title>
+      <link>https://aharp.iorc.depaul.edu/post/first-dnstcp-survey/</link>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aharp.iorc.depaul.edu/post/first-dnstcp-survey/</guid>
+      <description>&lt;p&gt;I recently repeated the &lt;a href=&#34;https://aharp.iorc.depaul.edu/post/ri-dnstcp-survey&#34;&gt;DNS over TCP survey given to the REN-ISAC
+community&lt;/a&gt; with the
+&lt;a href=&#34;https://www.first.org&#34; target=&#34;_blank&#34;&gt;FIRST&lt;/a&gt; community.  FIRST membership is largely
+made up of incident response teams from around the globe.   All types of
+industry sectors are represented within FIRST such as national CSIRTs,
+banks, governments, and software vendors.  I thought it might be
+interesting to repeat the survey with a security community where there
+may be some, but relatively little overlap in membership.  I expected
+FIRST survey respondents to express a greater desire to block or
+restrict DNS over TCP traffic than their REN-ISAC counterparts.  The
+evidence failed to support that belief.&lt;/p&gt;
+
+&lt;p&gt;A new online survey was sent in an email link to all members of each
+FIRST team.  The survey link was available for approximately one week.
+A little over 60 people responded.&lt;/p&gt;
+
+&lt;p&gt;Since email to each team is sent to a team email alias, administered
+locally and independently by each team, we have no way of knowing
+exactly how many people received the survey.  However, we can make an
+educated guess.  The number of respondents to the FIRST survey was
+nearly the same as the REN-ISAC survey.  Therefore it stands to reason
+that the total population of the two groups is within the same order of
+magnitude.&lt;/p&gt;
+
+&lt;p&gt;There were only two survey questions, both with three answer choices
+each.  Only one answer per question was allowed.  The questions and
+their respective answer choices are shown below.  Following each answer
+choice in bold are the representative tallies of the voting results.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Question I&lt;/strong&gt;: Which statement most closely reflects your current
+thinking on the role, use, and handling of DNS over TCP traffic on
+the Internet?&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It should be blocked everywhere / it is unnecessary or unwanted.
+&lt;strong&gt;[5%]&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;It should be restricted in use to DNS zone transfers between
+authorized hosts only (i.e. masters and slaves). &lt;strong&gt;[34%]&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;It should be allowed wherever DNS communications are permitted.
+&lt;strong&gt;[61%]&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Question II&lt;/strong&gt;: Which statement most closely reflects how your
+institution treats DNS over TCP traffic?&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It is allowed wherever DNS communications are permitted.
+&lt;strong&gt;[74%]&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;It is restricted in use to DNS zone transfers between authorized
+hosts only (i.e. masters and slaves). &lt;strong&gt;[18%]&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;It is blocked everywhere / it is unnecessary or unwanted.
+&lt;strong&gt;[8%]&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Compared to the REN-ISAC results, respondents were roughly of the same
+mindset, if not slightly more permissive in their thinking about the
+issue, but FIRST member organizations appear to be slightly more
+restrictive in practice with DNS over TCP traffic on their networks.&lt;/p&gt;
+
+&lt;p&gt;Between the two surveys we find a significant portion, but seemingly
+not a majority, of security practitioners feel some DNS over TCP
+restrictions are desirable.  However, what is done in practice on real
+networks we are told is much more permissive in comparison.&lt;/p&gt;
+
+&lt;p&gt;As a reminder and to reiterate even more briefly here than before, the
+&lt;a href=&#34;//tools.ietf.org/html/draft-ietf-dnsop-dns-tcp-requirements&#34; target=&#34;_blank&#34;&gt;Internet-Draft on DNS Transport over
+TCP&lt;/a&gt; aims
+to encourage the practice of permitting DNS messages to be carried over
+TCP.&lt;/p&gt;
+
+&lt;p&gt;I have at least one more community made up of a vastly different
+population of users than either REN-ISAC and FIRST I&amp;rsquo;d like to survey.
+Another useful activity would be active DNS over TCP measurement queries
+to a large and varied set of name servers, as well as from a large and
+varied set of origin networks.  If and when I get around to conducting
+those surveys, you&amp;rsquo;ll read about the results in future blog posts here.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>REN-ISAC DNS over TCP survey</title>
       <link>https://aharp.iorc.depaul.edu/post/ri-dnstcp-survey/</link>
       <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
