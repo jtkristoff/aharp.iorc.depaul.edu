@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching on John T Kristoff</title>
+    <link>https://aharp.iorc.depaul.edu/teaching/index.xml</link>
+    <description>Recent content in Teaching on John T Kristoff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 John T Kristoff</copyright>
+    <lastBuildDate>Sun, 27 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TDC 463 - Computer Networks and Data Systems - Fall 2017</title>
+      <link>https://aharp.iorc.depaul.edu/teaching/tdc463/fall2017/</link>
+      <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aharp.iorc.depaul.edu/teaching/tdc463/fall2017/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Tuesdays 5:45 PM - 9:00 PM &lt;/br&gt;
+&lt;strong&gt;Date&lt;/strong&gt;: September 12, 20017 to November 21, 2017 (inclusive) &lt;/br&gt;
+&lt;strong&gt;Place&lt;/strong&gt;: &lt;a href=&#34;https://www.depaul.edu/campus-maps/buildings/Pages/lewis-center.aspx&#34; target=&#34;_blank&#34;&gt;Lewis Building&lt;/a&gt; room 1509&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instructor&lt;/strong&gt;: John Kristoff &lt;a href=&#34;mailto:jtk@depaul.edu&#34; target=&#34;_blank&#34;&gt;jtk@depaul.edu&lt;/a&gt; &lt;/br&gt;
+&lt;strong&gt;Office hours (email first)&lt;/strong&gt;: M-F flexible by appointment&lt;/br&gt;
+&lt;strong&gt;Office&lt;/strong&gt;: 55 E Jackson Blvd room 713 &lt;/br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Book&lt;/strong&gt;: Internetworking with TCP/IP Volume 1 (6th ed.), Comer&lt;/p&gt;
+
+&lt;h1 id=&#34;grading&#34;&gt;Grading&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Homework &lt;strong&gt;30%&lt;/strong&gt; (lowest three dropped)&lt;/li&gt;
+&lt;li&gt;Quizes &lt;strong&gt;30%&lt;/strong&gt; (lowest three dropped)&lt;/li&gt;
+&lt;li&gt;Final Exam &lt;strong&gt;40%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;schedule&#34;&gt;Schedule&lt;/h1&gt;
+
+&lt;p&gt;September 12, 2017&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Introduction&lt;/li&gt;
+&lt;li&gt;Homework 01&lt;/li&gt;
+&lt;li&gt;Quiz 01&lt;/li&gt;
+&lt;li&gt;Reading 01&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;September 19, 2017&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Network Tools&lt;/li&gt;
+&lt;li&gt;Homework 02&lt;/li&gt;
+&lt;li&gt;Quiz 02&lt;/li&gt;
+&lt;li&gt;Reading 03&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;September 26, 2017&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Address Administration and Management&lt;/li&gt;
+&lt;li&gt;Homework 03&lt;/li&gt;
+&lt;li&gt;Quiz 03&lt;/li&gt;
+&lt;li&gt;Reading 03&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;October 3, 2017&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Routing&lt;/li&gt;
+&lt;li&gt;Homework 04&lt;/li&gt;
+&lt;li&gt;Quiz 04&lt;/li&gt;
+&lt;li&gt;Reading 04&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;October 10, 2017&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Advanced BGP&lt;/li&gt;
+&lt;li&gt;Homework 05&lt;/li&gt;
+&lt;li&gt;Quiz 05&lt;/li&gt;
+&lt;li&gt;Reading 05&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;October 17, 2017&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Transport&lt;/li&gt;
+&lt;li&gt;Homework 06&lt;/li&gt;
+&lt;li&gt;Quiz 06&lt;/li&gt;
+&lt;li&gt;Reading 06&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;October 24, 2017&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Naming&lt;/li&gt;
+&lt;li&gt;Homework 07&lt;/li&gt;
+&lt;li&gt;Quiz 07&lt;/li&gt;
+&lt;li&gt;Reading 07&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;October 31, 2017&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Advanced DNS&lt;/li&gt;
+&lt;li&gt;Homework 08&lt;/li&gt;
+&lt;li&gt;Quiz  08&lt;/li&gt;
+&lt;li&gt;Reading 08&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;November 07, 2017&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Applications&lt;/li&gt;
+&lt;li&gt;Homework 09&lt;/li&gt;
+&lt;li&gt;Quiz 09&lt;/li&gt;
+&lt;li&gt;Reading 09&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;November 14, 2017&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Security&lt;/li&gt;
+&lt;li&gt;Homework 10&lt;/li&gt;
+&lt;li&gt;Quiz 10&lt;/li&gt;
+&lt;li&gt;Reading 10&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;November 21, 2017&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Final Exam&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
