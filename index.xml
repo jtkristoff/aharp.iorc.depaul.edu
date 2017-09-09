@@ -42,9 +42,8 @@
 
 &lt;ul&gt;
 &lt;li&gt;Introduction&lt;/li&gt;
-&lt;li&gt;Homework 01&lt;/li&gt;
-&lt;li&gt;Quiz 01&lt;/li&gt;
-&lt;li&gt;Reading 01&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;homework01.txt&#34; target=&#34;_blank&#34;&gt;Homework 01&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Quiz 01 (currently active on D2L)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;September 19, 2017&lt;/p&gt;
@@ -53,7 +52,6 @@
 &lt;li&gt;Network Tools&lt;/li&gt;
 &lt;li&gt;Homework 02&lt;/li&gt;
 &lt;li&gt;Quiz 02&lt;/li&gt;
-&lt;li&gt;Reading 03&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;September 26, 2017&lt;/p&gt;
@@ -62,16 +60,14 @@
 &lt;li&gt;Addressing&lt;/li&gt;
 &lt;li&gt;Homework 03&lt;/li&gt;
 &lt;li&gt;Quiz 03&lt;/li&gt;
-&lt;li&gt;Reading 03&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;October 3, 2017&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Routing&lt;/li&gt;
-&lt;li&gt;Homework 04&lt;/li&gt;
+&lt;li&gt;Homework&lt;/li&gt;
 &lt;li&gt;Quiz 04&lt;/li&gt;
-&lt;li&gt;Reading 04&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;October 10, 2017&lt;/p&gt;
@@ -80,7 +76,6 @@
 &lt;li&gt;Advanced BGP&lt;/li&gt;
 &lt;li&gt;Homework 05&lt;/li&gt;
 &lt;li&gt;Quiz 05&lt;/li&gt;
-&lt;li&gt;Reading 05&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;October 17, 2017&lt;/p&gt;
@@ -89,7 +84,6 @@
 &lt;li&gt;Transport&lt;/li&gt;
 &lt;li&gt;Homework 06&lt;/li&gt;
 &lt;li&gt;Quiz 06&lt;/li&gt;
-&lt;li&gt;Reading 06&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;October 24, 2017&lt;/p&gt;
@@ -98,7 +92,6 @@
 &lt;li&gt;Naming&lt;/li&gt;
 &lt;li&gt;Homework 07&lt;/li&gt;
 &lt;li&gt;Quiz 07&lt;/li&gt;
-&lt;li&gt;Reading 07&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;October 31, 2017&lt;/p&gt;
@@ -107,7 +100,6 @@
 &lt;li&gt;Advanced DNS&lt;/li&gt;
 &lt;li&gt;Homework 08&lt;/li&gt;
 &lt;li&gt;Quiz  08&lt;/li&gt;
-&lt;li&gt;Reading 08&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;November 07, 2017&lt;/p&gt;
@@ -116,7 +108,6 @@
 &lt;li&gt;Applications&lt;/li&gt;
 &lt;li&gt;Homework 09&lt;/li&gt;
 &lt;li&gt;Quiz 09&lt;/li&gt;
-&lt;li&gt;Reading 09&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;November 14, 2017&lt;/p&gt;
@@ -125,7 +116,6 @@
 &lt;li&gt;Security&lt;/li&gt;
 &lt;li&gt;Homework 10&lt;/li&gt;
 &lt;li&gt;Quiz 10&lt;/li&gt;
-&lt;li&gt;Reading 10&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;November 21, 2017&lt;/p&gt;

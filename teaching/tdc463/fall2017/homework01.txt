@@ -1,0 +1,106 @@
+TDC 463                       Student Name:
+Homework 01
+Due by 2017-09-19 @ 5:45 pm
+
+Submit to D2L <http://d2l.depaul.edu>.
+
+Plain text (.txt) is vastly preferred over Microsoft Word documents,
+PDF, RTF or other formats.  I should be able to deal with most anything
+that is in common use.
+
+Associated Reading and Reference Material:
+
+  From Comer:
+    Chapter  1: Introduction and Overview - 16 pages
+    Chapter  2: Overview of Underlying Network Technologies - 13 pages
+    Chapter  3: Internetworking Concept and Architectural Model - 9 pages
+    Chapter  4: Protocol Layering - 20 pages
+
+  From Dordal:
+    <http://intronetworks.cs.luc.edu/current/html/intro.html>
+    Chapter  1: An Overview of Networks
+
+  From Envato Tuts+
+    <https://code.tutsplus.com/articles/number-systems-an-introduction-to-binary-hexadecimal-and-more--active-10848>
+
+Homework:
+
+Q1. Find the IETF RFC entitled "Choosing a Name for Your Computer".
+    Fill in the following fields based on information from the RFC:
+
+      * public URL to the RFC:
+      * publication month and year:
+      * RFC number:
+      * Working Group:
+      * Category:
+
+      Read it.  Now consider the following two fully qualified domain
+      names:
+
+        rtr-710-2w-int-xe-0-0-2.netequip.depaul.edu.
+        tata.ord03.atlas.cogentco.com.
+
+      Each of those names is associated with hosts (or more precisely
+      interface attachments) using IP addresses 140.192.9.126 and
+      154.54.10.162 respectively.  Respond to the following questions:
+
+      * What, if anything, can you infer from the domain names alone?
+      * How might these names violate or adhere to the recommendations
+        in the RFC above?
+      * Do you feel the RFC is fine as is or should it be updated?  If
+        it should be updated, what do think is missing or incorrect?
+
+
+
+Q2. What are the IPv4 and IPv6 addresses for aharp.iorc.depaul.edu?  How
+    did you derive this information?
+
+
+
+Q3. Imagine you have a trinary (3 digit) numbering system where the
+    decimal digit on the left is equivalent to the associated symbol
+    on the right.
+
+      0  ----->  *
+      1  ----->  A
+      2  ----->  9
+
+    In this new trinary numbering system how would you represent the
+    decimal value of 62?
+
+
+
+Q4. Below is the raw output of the versatile tcpdump utility to display
+    a packet captured on a network.  There are three columns and XXX lines
+    of output.  The middle column (hexadecimal payload) is the raw packet
+    decoded in hexadecimal characters.  The first column (num) denotes the
+    "byte" number of the first pair of hex characters at the beginning of
+    the middle column.  The third column (decode) is a decode of the middle
+    column bytes.  Only printable ASCII characters are decoded, others are
+    denoted with a dot.
+
+      - num -  --------- hexadecimal payload ---------  ---- decode ----
+
+      0x0000:  46c0 0020 92d6 0000 0102 49fe 8cc0 da81  F.........I.....
+      0x0010:  e000 0001 9404 0000 1164 ee9b 0000 0000  .........d......
+      0x0020:  0000 0000 0000 0000 0000 0000 0000       .............. 
+
+
+      The raw output above is for an IPv4 datagram whose format is described
+      in IETF RFC 791 section 3.1.  Using that knowledge, what is the IPv4
+      destination address in dotted decimal notation (e.g. 192.0.2.1) of
+      the raw packet above?
+
+
+
+Q5.  Consider the size of the IPv4 address space.  That is, the total number
+     of IP addresses (an integer value).  Note, this is just a maximum
+     theoretical value.  Some IP addresses are not assigned or used in
+     practice (e.g.  255.254.254.254).  We only care about the theoretical
+     value.  What is this theoretical integer number?
+
+
+     Now consider the total population of the United States.  You may need
+     to find a reasonable reference, such as the CIA World Factbook to get an
+     approximate value.  If you could assign one IPv4 address to each person
+     in the US, approximately how many available IPv4 addresses would remain?
