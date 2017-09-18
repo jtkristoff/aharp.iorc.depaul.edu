@@ -1,0 +1,116 @@
+TDC 463                       Student Name:
+Homework 02
+Due by 2017-09-26 @ 5:45 pm
+
+Submit to D2L <http://d2l.depaul.edu>.
+
+Plain text (.txt) is vastly preferred over Microsoft Word documents,
+PDF, RTF or other formats.  I should be able to deal with most anything
+that is in common use.
+
+Associated Reading and Reference Material:
+
+  From Comer:
+    NA
+
+  From Dordal:
+    <http://intronetworks.cs.luc.edu/current/html/intro.html#some-useful-utilities>
+    Section  1.14: Some Useful Utilities
+
+  From the IETF:
+    <https://tools.ietf.org/html/rfc1122#page-42>
+    IETF RFC 1122 - Requirements for Internet Hosts
+    Section 3.2.2.6, Echo Request/Reply
+
+    <https://tools.ietf.org/html/rfc1812#page-58>
+    IETF RFC 1812 - Requirements for IP Version 4 Routers
+    Section 4.3.3.6, Echo Request/Reply
+
+  From the Internet Archive:
+    <https://web.archive.org/web/20170501052757/http://ftp.arl.army.mil/~mike/ping.html>
+    The Story of the PING Program
+
+  From NANOG 62:
+    <https://www.nanog.org/sites/default/files/tuesday_steenbergen_troublshootingtraceroute_62.49.pdf>
+    <https://youtu.be/WL0ZTcfSvB4>
+    Troubleshooting with Traceroute
+
+Homework:
+
+Q1. Compare and contrast the Linux traceroute utility with the Microsoft
+    Windows tracert implementation.  Answer the following questions:
+
+    What is the Linux traceroute equivalent to tracert's -d option?
+
+
+    Windows tracert sends ICMP echo request probe messages by default.
+    What does Linux traceroute use by default?
+
+
+    What do you think might be the most useful option Linux traceroute
+    has that the Windows tracert implementation doesn't have?  Why?
+
+
+ 
+
+Q2. TELNET to route-views.routeviews.org (user name is rviews).  Once
+    at the command prompt, run the following commands and copy their
+    output as your answer:
+
+      traceroute 8.8.8.8
+
+
+
+      show users
+
+
+
+      show ip route 140.192.0.0
+
+
+
+Q3. Consider the following methods of online communication:
+
+    * email
+    * IRC
+    * Jabber
+
+    For each, find out the following:
+
+    * Example server software implementation, software name and home URL
+    * Associated standards document defining the core protocol, name and URL
+    * Associated transport layer protocol (e.g. UDP or TCP) and default
+      listening server port numbers
+
+
+
+
+Q4. Research the Internetwork Packet Exchange (IPX) protocol.  What is the
+    size in bits of an IPX address?  How does this compare to IPv4?  IPX
+    while at one time very widely used has now been largely relegated to
+    the dustbin of history.  Does this surprise you?
+
+
+
+
+Q5. Consider how data makes its way from one system to another across an
+    a network.  As packets cross layer two switches, are forwarded by
+    IP routers, perhaps are inspected and actively handled by firewalls,
+    and ultimately arrive at the destination, what sorts of potential
+    bit errors may occur.  Faulty hardware, noise, or maybe even coding
+    bugs may arise.  You could implement one or more forms of error
+    detection and correction at one or more points in a path.  For
+    example, you could verify the packet at each step along the way,
+    ensuring that what the previous relay sent was what you received.
+    If you discover a problem, you can react in a handful of ways.  You
+    increment an error counter, throw the packet away, try to deliver
+    it anyway, ask for a retransmission, and so on.  However there are
+    trade-offs.  Consider two distinct scenarios.  First is a real-time
+    audio call between two parties over the Internet.  Second is a
+    large file transfer of satellite data between two supercomputers
+    separated by hundreds of miles.  Describe what sort of error
+    detection and error correction, if any, you would want in place and
+    where.  And maybe you want you the same scheme for both scenarios?.
+    Reason and argue what you think would be the appropriate amount of
+    error handling the network elements (switches, routers, firewalls,
+    and end hosts) should implement in these two scenarios.
