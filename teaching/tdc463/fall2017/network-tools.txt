@@ -1,0 +1,146 @@
+# Network Tools discussion and exploration
+
+Rather than a slide deck presentation, today we explore networking with
+the help a recently deployed Debian virtual machine (VM) on the public
+Internet.  We will start roughly at the beginning, by demonstrating
+login using SSH, basic system tasks and then on to common network tools
+such as ping, traceroute, tcpdump, and nmap.
+
+The following is a rough roadmap, time permitting.
+
+## Login
+
+SSH login to the remote system.  Note that we may receive a warning
+message about a "host key" being unknown.  This is an important
+cryptographic check to help alert us we may be logging into an
+untrusted or previously unknown system.
+
+**Warning:** It is always best to utilize public-key authentication,
+rather than just using a login name and password.
+
+## Basic shell commands
+
+You will likely see me traipise around the system rather quickly at
+times.  I may explain some of what I'm doing, but much we may skim over
+rather quickly, focusing primarily on network-specific tools and topics.
+Nonetheless, here is a brief summary of some commands and system tools
+you may see me use:
+
+ * ```cd``` - change directory
+ * ```ls``` - list contents of a directory
+ * ```screen``` - text-based screen multiplexing
+ * ```sudo``` - run the command to follow with elevated privleges
+ * ```grep``` - search for text
+ * ```head``` - retrieve the beginning of a file
+ * ```tail``` - retrieve the end of a file
+ * ```vi``` - popular unix text editor
+ * ```more``` - "pager" to display/scroll a file
+ * ```host``` - a simple DNS look up command
+ * ```dig``` - DNS inquiry and troubleshooting tool
+ * ```man``` - manual page(s) for command to follow
+
+Note, this is just a sample.  Some of this commands may also be used
+with various command line switches (e.g. -t, -lt).  
+
+## ifconfig
+
+To evaluate the networking interface configuration.
+
+## netstat -arn
+
+To examine the local host's routing table.
+
+## arp
+
+To examine the local host's ARP cache.
+
+## /etc/resolv.conf
+
+To examine the local host's DNS resolver configuration.
+
+## netstat -tuna
+
+To examine the local host's network listener and connection state.
+
+## tcpdump
+
+We will utilize tcpdump to capture a variety of network activity on our
+test system.  We will save pcap files, transfer them to the instructor
+PC and more carefully examine them with the GUI app Wireshark.
+
+## ping
+
+To test connectivity.
+
+## traceroute
+
+To evaluate a path from the local host to a destination.  We may look at
+various switches, such as sending different types of protocol probes
+(i.e. UDP, ICMP, TCP) to compare the results.
+
+## telnet
+
+To help test and evaluate connectivity, as well as interact with certain
+services in a "more manual" way than using typical applications such as
+SMTP and HTTP.
+
+## nmap
+
+To fingerprint and interogate a remote host.
+
+## ssh
+
+To securely connect and authenticate to a remote host.  We may also use
+scp or sftp to secure transfer files.
+
+## whois
+
+To interrogate domain name or IP address records in their respective
+registeries.
+
+# Other network tools
+
+There are some third party tools that are not installed on this system.
+These may be third party web-based systems or more elaborate tools that
+we cannot easily and quickly explore with our own installation.  There
+are too many to list, but here is a sample of some useful ones.  Note,
+be aware some tools you may stumble upon are often deficient or
+problematic in one or more ways.  Many tools that purport to perform DNS
+look ups for instance are notoriously imperfect or broken in some way.
+
+## NetFlow
+
+Network traffic summary data export from routers (typically).  We may
+examine publicly available Netflow collector systems.
+
+## Route Views
+
+A popular system that collectors and monitors Internet routing tables
+from many network routers.  We may use this to examine their view of the
+Internet.
+
+## RIPEstat
+
+Similiar sorts of tools to Route Views, but including routing history
+and other network insight.
+
+## PeeringDB
+
+A community resource for which networks populate their network
+connection and BGP peering information.
+
+## Team Cymru BGP ASN / IP address mapping
+
+A popular tool used by the network and security community to quickly and
+easily discern how, by who, an IP address is currently and actively
+originated in BGP.
+
+## https://bgp.he.net
+
+A popular web-based tool that presents a variety of summary information
+about the current state of BGP statistics give an IP address or ASN.
+
+## Internet2 Looking Glass
+
+A community resource to interrogate Internet2 network routers, examining
+various routing and network state.
