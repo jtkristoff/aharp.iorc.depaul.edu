@@ -1,0 +1,62 @@
+TDC 463        2017-09-12 Quiz #1           Student Name:
+
+
+
+1. Which one of the following is not a valid IPv4 address?
+
+   ___  a. 255.255.255.255
+
+   ___  b. 127.0.0.1
+
+   ___  c. 192.0.2.256
+
+   ___  d. 0.0.0.0
+
+
+
+2. The OUI of an Ethernet MAC layer address
+
+   ___ a. is encoded into last 3 bytes of the address
+
+   ___ b. is same thing as the adapter's serial number
+
+   ___ c. is the first 24 bits assigned by the IEEE to a manufacturer
+
+   ___ d. is the Apple-allocated manufacturer id for Apple-compatible systems
+
+
+
+3. What idea is most concerned with matching the sending rate to the
+   receiving rate so as not to overload the network or end system?
+
+   ___ a. error control
+
+   ___ b. error detection
+
+   ___ c. flow control
+
+   ___ d. quality of service
+
+
+
+4. Which TCP/IP utility is best for discovering the path between two hosts?
+
+   ___ a. dig
+
+   ___ b. ping
+
+   ___ c. ssh
+
+   ___ d. traceroute
+
+
+
+5. How many bits are allocated for a source address in an IPv6 header?
+
+   ___ a. 32
+
+   ___ b. 64
+
+   ___ c. 128
+
+   ___ d. it varies
