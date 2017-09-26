@@ -1,0 +1,84 @@
+TDC 463                       Student Name:
+Homework 03
+Due by 2017-10-03 @ 5:45 pm
+
+Submit to D2L <http://d2l.depaul.edu>.
+
+Plain text (.txt) is vastly preferred over Microsoft Word documents,
+PDF, RTF or other formats.  I should be able to deal with most anything
+that is in common use.
+
+Associated Reading and Reference Material:
+
+  Understanding IP Addressing: Everything You Ever Wanted to Know
+    <http://tdc.iorc.depaul.edu/media/ipaddressing.pdf>
+
+  From Comer:
+    Chapter  5: Internet Addressing - 30 pages
+
+  From Dordal:
+    <http://intronetworks.cs.luc.edu/current/html/intro.html#ip-internet-protocol>
+    Section 1.10 IP - Internet Protocol
+
+    <http://intronetworks.cs.luc.edu/current/html/ipv4.html>
+    Section 7 IP to Section 7.7 Network Address Translation (inclusive)
+
+    <http://intronetworks.cs.luc.edu/current/html/ipv6.html>
+    Section 8 IP version 6
+
+Homework:
+
+Q1. Given the IPv4 address formulation of 203.0.113.57/26, perform the
+    following tasks:
+
+    a. Write the address in dotted binary notation and denote those bits
+       that constitute the "network" bits and those bits that make up the
+       "host bits", perhaps by putting some sort of marker at the division
+       point (e.g. a '|' between the two groups of bits is appropriate).
+
+
+    b. Write the address in dotted hexadecimal notation.
+
+
+    c. Identify the first (the network) address for the prefix.
+
+
+    d. Identify the last (directed broadcast) address for the prefix.
+
+
+    e. Identify precisely how many total addresses are contained within
+       this prefix as an exponential number (two raised to a power).
+
+
+    f. Identify precisely the maximum number of /29-sized networks that
+       could be constructed out of this prefix.
+
+
+    g. Research what is specifically unique about this address in the
+       context of Internet IPv4 address assignments.  Describe what you
+       discover.
+
+
+
+Q2. IPv4 allocates 127.0.0.0/8 to be used for loopback addressing.  IPv6
+    allocates ::1/128.  Do some research on the use of a single IPv6 address
+    versus a proposal to use a larger IPv6 loopback address block.  Summarize
+    what you have found about the loopback allocation size.  Provide
+    references as appropriate.  Do you feel a larger block would be useful
+    and appropriate to standardize?
+
+
+
+Q3. Identity all of the public Internet IP address space assigned to
+    DePaul University in slash (aka CIDR) notation.  Indicate how you
+    determined this information.
+
+
+
+Q4. What is the dotted decimal equivalent IPv4 address for the integer
+    value 3221225985?
+
+
+
+Q5. What is the standardized discard prefix for IPv6?  Provide a reference
+    to where you discovered the answer.

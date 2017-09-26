@@ -1,0 +1,61 @@
+TDC 463        2017-09-19 Quiz #2           Student Name:
+
+
+
+1. Given the numbers 11010110, 214, and D6, which is a true statement?
+
+   ___  a. Only 11010110 is a hexadecimal number
+
+   ___  b. Only 214 is a hexadecimal number
+
+   ___  c. Only D6 is a hexadecimal number
+
+   ___  d. They could all be hexadecimal numbers
+
+
+
+2. The Conficker worm was mitigated using a technique commonly known as a
+
+   ___ a. NAT
+
+   ___ b. Sinkhole
+
+   ___ c. RFI exploit
+
+   ___ d. Passive DNS
+
+
+
+3. Which statement about Wireshark is false?
+
+   ___ a. Decoded packets are visible in raw hex output
+
+   ___ b. You can selectively filter the view of packets to display
+
+   ___ c. Wireshark only runs on Microsoft Windows systems
+
+   ___ d. It is a full-featured, GUI-version of a simpler program like tcpdump
+
+
+
+4. What does jtk say is obsolete and you should no longer refer to or use?
+
+   ___ a. Classful IP addressing (e.g. Class A, B, and C)
+
+   ___ b. ping
+
+   ___ c. RTBH with BGP
+
+   ___ d. IPv6
+
+
+
+5. Which group is responsible for maintaining the RFC series?
+
+   ___ a. IEEE
+
+   ___ b. IETF
+
+   ___ c. ANSI
+
+   ___ d. OSI
