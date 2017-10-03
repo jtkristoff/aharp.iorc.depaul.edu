@@ -1,0 +1,63 @@
+TDC 463        2017-09-26 Quiz #3           Student Name:
+
+
+
+1. Which number is the 2nd largest?
+
+   ___  a. hexadecimal FF
+
+   ___  b. 127.0.0.1 as an integer
+
+   ___  c. binary value 10000000
+
+   ___  d. decimal number 99
+
+
+
+2. Which is statement is incorrect?
+
+   ___  a. Traceroute manipulates the TTL (hop limit in IPv6)
+
+   ___  b. Traceroute learns intermediate nodes in path from ICMP responses
+
+   ___  c. Traceroute can use ICMP, UDP, or TCP for path probes
+
+   ___  d. NextGenHacker01 demonstrated how traceroute uncovers others' addresses
+
+
+
+3. The Microsoft Windows, Apple OS X, and Linux command line utility to
+   see passive and active listening services (e.g. UDP and TCP listeners
+   and active connections) is
+
+   ___  a. arp
+
+   ___  b. ifconfig
+
+   ___  c. tcpdump
+
+   ___  d. netstat
+
+
+
+4. How many total addresses are contained within any IPv4 /27 prefix?
+
+   ___  a. 256
+
+   ___  b. 254
+
+   ___  c. 32
+
+   ___  d. less than 32
+
+
+
+5. What is the IPv6 link local prefix?
+
+   ___  a. ::/0
+
+   ____ b. ::1/128
+
+   ____ c. ::ffff:0:0/96
+
+   ____ d. fe80::/10
