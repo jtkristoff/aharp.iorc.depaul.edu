@@ -1,0 +1,136 @@
+TDC 463                       Student Name:
+Homework 04
+Due by 2017-10-10 @ 5:45 pm
+
+Submit to D2L <http://d2l.depaul.edu>.
+
+Plain text (.txt) is vastly preferred over Microsoft Word documents,
+PDF, RTF or other formats.  I should be able to deal with most anything
+that is in common use.
+
+Associated Reading and Reference Material:
+
+  End-to-end Arguments in System Design [RECOMMENDED]
+    <http://tdc.iorc.depaul.edu/media/e2e.pdf>
+    audio version: <http://tdc.iorc.depaul.edu/media/e2e.mp3>
+
+  The Design Philosophy of the DARPA Internet Protocols [RECOMMENDED]
+    <http://tdc.iorc.depaul.edu/media/internet-design-philosophy.pdf>
+    audio version: <http://tdc.iorc.depaul.edu/media/internet-design-philosophy.mp3>
+
+  Watching the Waist of the Protocol Hourglass [RECOMMENDED]
+    <http://tdc.iorc.depaul.edu/media/ietf51-deering-hourglass.mpg>
+    <http://tdc.iorc.depaul.edu/media/ietf51-deering-hourglass.pdf>
+
+  From Comer:
+    Chapter  7: Internet Protocol: Connectionless Datagram Delivery (IPv4, IPv6) - 26 pages
+    Chapter  8: Internet Protocol: Forwarding IP Datagrams - 27 pages
+
+  From Dordal:
+    <http://intronetworks.cs.luc.edu/current/html/routing.html>
+    Section 9 Routing-Update Algorithms 
+
+
+Homework:
+
+Q1. Imagine from within DePaul's network, you ran a traceroute from a
+    source host to 192.35.225.7 and this is the complete output of that
+    attempt:
+
+      $ traceroute -n ns1.dns.ucla.edu
+      traceroute to 192.35.225.7, 30 hops max, 60 byte packets
+       1  140.192.218.129  0.469 ms  0.531 ms  0.582 ms
+       2  140.192.9.78  0.738 ms  0.783 ms  0.835 ms
+       3  140.192.9.148  11.705 ms  11.716 ms  11.709 ms
+       4  140.192.9.154  12.161 ms  12.162 ms  12.152 ms
+       5  64.57.28.205  12.139 ms  12.127 ms  12.114 ms
+       6  64.57.28.36  34.892 ms  48.195 ms  48.130 ms
+       7  64.57.28.57  35.826 ms  35.896 ms  35.905 ms
+       8  * * *
+       9  137.164.26.133  67.003 ms  66.842 ms  66.725 ms
+      10  137.164.27.6  59.239 ms  59.312 ms  59.382 ms
+      11  169.232.4.100  58.931 ms  58.729 ms  58.623 ms
+      12  169.232.8.7  58.943 ms  58.904 ms  58.760 ms
+      13  192.35.225.7  59.062 ms  58.990 ms  58.888 ms
+
+   Answer the following questions:
+
+     a. Was this trace successful?  If so, how many hops to the destination?
+
+
+
+     b. How many trace probe packets are sent?  How many responses to each
+        trace probe packet are received?
+
+
+
+     c. What would be the IPv4 TTL of any and all datagrams sent by the
+        tracing station associated with the line marked as "8  * * *".
+
+
+
+     d. What is the IP address of default router for the host performing
+        the trace?
+
+
+
+Q2. Imagine a situation where a host on the DePaul University network
+    has both an IPv4 and IPv6 address assigned.  Both IPv4 and IPv6
+    connectivity throughout DePaul is available and there are multiple
+    exits out of DePaul, all of which support both IPv4 and IPv6.  Now
+    imagine a high-speed cable modem home user in Japan who has both IPv4
+    and IPv6 connectivity.  Other than the obvious difference in IP addresses,
+    would an IPv4-based traceroute path be congruent to an IPv6-based
+    traceroute path between the two hosts in both directions?  Explain your
+    answer.
+
+
+
+Q3. Assume the following is a complete router table for a given router:
+
+      prefix             cost          interface   next-hop
+      -----------------  ------------  ----------  -------------------
+      140.192.0.0/15     100           eth0:0      connected
+      140.192.0.0/24     200           eth0:1      connected
+      140.192.2.1/32     100           eth0:2      connected
+      140.192.128.0/18    50           eth0:3      connected
+      140.192.130.0/28   150           eth0:4      connected
+      0.0.0.0/0          500           eth0:4      140.192.130.2
+
+      Answer the following questions regarding packets being relayed by
+      this router.
+
+      a. A packet destined for 140.192.0.254 will be forwarded out
+
+         interface _____________.
+
+
+      b. A packet destined for 140.192.201.1 will be forwarded out
+
+         interface _____________.
+
+
+      c. Assume there is no source-address spoofing occurring.  Should
+         you be able to tell which interface a packet with IP source of
+         129.105.26.1 came in on?  If so, which interface?
+
+
+
+Q4. Some have interpreted or reinterpreted the e2e argument to suggest
+    the network ought to be "stupid".  That is, data packets are king,
+    and they control the flow of information, telling the network how
+    to handle them and where they are to go.  Often this idea is used
+    as an idea that distinguishes the traditional circuit-switched
+    telephony network architecture with the packet-switched Internet
+    architecture.  Does the e2e argument lead to a stupid network?
+    Would you consider the Internet a stupid network?  Why or why not?
+
+
+
+Q5. Research the 192.0.2.0/24 prefix.  What is special about it?  How
+    is it used?  Cite your reference(s) material.  Now perform a WHOIS
+    query for this prefix (you can use arin.net for this purpose).  Then
+    perform an IP address to BGP mapping lookup for this prefix (you can
+    use https://asn.cymru.com/ for this purpose).  Do you find the Team
+    Cymru output unusual?  Why or why not?  Can you explain why there is
+    a difference between the WHOIS and Team Cymru outputs?
