@@ -1,0 +1,63 @@
+TDC 463        2017-10-03 Quiz #4           Student Name:
+
+
+
+1. What is the equivalent of an IPv4 /26 (sub)network mask in binary?
+
+   ___  a. 00000000 00000000 00000000 00111111
+
+   ___  b. 11111111 11111111 11111111 00000000
+
+   ___  c. 00000011 11111111 11111111 11111111
+
+   ___  d. 11111111 11111111 11111111 11000000
+
+
+
+2. If you could combine two contiguous IPv4 /24 prefixes together, you'd have
+
+   ___  a. One /25
+
+   ___  b. One /64
+
+   ___  c. One /23
+
+   ___  d. This is an impossible operation according to CIDR rules
+
+
+
+3. Which IPv4 prefix notation is the most specific?
+
+   ___  a. /0
+
+   ___  b. /16
+
+   ___  c. /24
+
+   ___  d. /32
+
+
+
+4. How many addresses (i.e. numbers) does an IPv4 /27 cover?  (Note:
+   the '^' indicates the digit immediately following is an exponent)
+
+   ___  a. 2^5
+
+   ___  b. 2^5 - 1
+
+   ___  c. 2^5 - 2
+
+   ___  d. 5^2 + 2
+
+
+
+5. Which service did your instructor indicate he has been involved in
+   conducting Internet-wide scanning probes for going back many years?
+
+   ___  a. DNS
+
+   ____ b. TELNET
+
+   ____ c. BGP
+
+   ____ d. SMTP
