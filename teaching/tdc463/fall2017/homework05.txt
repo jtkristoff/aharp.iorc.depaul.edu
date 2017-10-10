@@ -1,0 +1,120 @@
+TDC 463                       Student Name:
+Homework 05
+Due by 2017-10-17 @ 5:45 pm
+
+Submit to D2L <http://d2l.depaul.edu>.
+
+Plain text (.txt) is vastly preferred over Microsoft Word documents,
+PDF, RTF or other formats.  I should be able to deal with most anything
+that is in common use.
+
+Associated Reading and Reference Material:
+
+  Tutorial: Bridges, Routers, Switches, Oh My!
+    <https://youtu.be/00DfD5MOoDk>
+    <https://www.nanog.org/meetings/nanog34/presentations/perlman.routers.pdf>
+
+  BGP 101
+    <https://www.nanog.org/meetings/nanog48/presentations/Sunday/Freedman_bgp101_N48.pdf>
+    <https://youtu.be/tKcPNgKJBkA>
+
+  BGP Tutorial 1: Multi-homing With and Without BGP4
+    <http://tdc.iorc.depaul.edu/media/bgp1.pdf>
+  BGP Tutorial 2: Where We Are in the "Routing Columns" Series
+    <http://tdc.iorc.depaul.edu/media/bgp2.pdf>
+  BGP Tutorial 3: Ethel the Aardvark Goes BGP Routing
+    <http://tdc.iorc.depaul.edu/media/bgp3.pdf>
+
+  From Comer:
+    Chapter 12: Routing Architecture: Cores, Peers, And Algorithms - 13 pages
+    Chapter 13: Routing Among Autonomous Systems (BGP) - 23 pages
+
+  From Dordal:
+    <http://intronetworks.cs.luc.edu/current/html/bigrouting.html>
+    Large-Scale IP Routing
+
+
+Homework:
+
+Q1.  Review IETF RFC 4271 Section 4.2.  Notice the "My Autonomous
+     Field" in the OPEN Message Format.  Now consider the ASN 393232
+     (you can use arin.net to perform a look up on it).  What is
+     peculiar about this ASN value and the RFC you just examined?
+     Will this value work with BGP?  If so, how?  If not, why not?
+
+
+
+Q2. You receive the following BGP announcements from three different
+    peers.  Which route would you prefer when forwarding a datagram
+    to the destination 192.0.2.1?  Assume the default LOCAL-PREF
+    value is 100 is not specified and there is no MED value unless
+    specified.
+
+   ___ a. 192.0.2.0/24 AS-PATH: 4,3,2,1 MED: 100, LOCAL-PREF: 200
+
+   ___ b. 192.0.2.0/24 AS-PATH: 5,2,1
+
+   ___ c. 192.0.2.0/24 AS-PATH: 7,6,2,1 MED: 200, LOCAL-PREF: 50
+
+   ___ d. 192.0.2.0/23 AS-PATH: 1
+
+   ___ e. 192.0.2.0/25 AS-PATH: 8,9,10,15,255,3829,33
+
+   ___ f. 0.0.0.0/0 AS-PATH: 11 MED: 200, LOCAL-PREF: 300
+
+
+
+Q3. Assume the DePaul University network is a heavily guarded network
+    and very little malevolent traffic is allowed onto the university
+    infrastructure.  How might you conduct an availability
+    (denial-of-service) attack against the university?
+
+
+
+Q4. What sorts of things might you do to protect against attacks
+    enumerated above in Q4?
+
+
+
+Q5. Given the following pair of routers that have a point-to-point
+    link between them and the following layer 2 and layer 3 address
+    assignments:
+
+      Router 1                     Router 2
+      eth0: 40:00:02:0d:00:01      eth0: 40:00:02:0d:00:02
+      eth0: 192.0.2.1/24           eth0: 192.0.2.2/24
+
+
+    The routers are configured to exchange routing information first
+    using RIP, then OSPF, then IS-IS, and then finally BGP.
+
+    Note, for area-based protocols, assume there is a single area
+    in use throughout the network.
+
+    For each routing protocol used, answer the following questions:
+
+      The routing protocol would be encapsulated in (from a layering
+      perspective, on top of) what lower layer protocol?
+
+        RIP:
+        OSPF:
+        IS-IS:
+        BGP:
+
+      The destination address of a routing announcement would be 
+      what address?
+
+        RIP:
+        OSPF:
+        IS-IS:
+        BGP:
+
+      After the physical link comes up and the routers are active,
+      assuming no connectivity problems and no topology changes,
+      approximately how often will the same routing announcement be
+      sent to a peer? 
+
+        RIP:
+        OSPF:
+        IS-IS:
+        BGP:

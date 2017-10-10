@@ -1,0 +1,102 @@
+TDC 463
+John Kristoff
+Routing Worksheet
+
+1. Given an address block of 140.192.0.0/16 to be used as the primary
+   address pool for a medium-sized university, devise an addressing and
+   routing plan that supports:
+
+     * Two major, but geographically distinct, redundantly interconnected
+       campuses each with about 5000 hosts spread across multiple
+       buildings at each campus.
+
+     * Five smaller satellite campuses, each with less than 1000 hosts.
+
+     * Two primary "data centers" that house a variety of central
+       services such as web servers, email servers and file servers.
+       Don't forget access control policies.
+
+     * External connectivity to the Internet through 2 separate locations,
+       with different ISPs at each location.  One location could be marked
+       as the primary exit/entry if you so desire.
+
+2. Two large ISPS have equipment at common national "exchanges" in
+   the U.S.  They are roughly equal in size and would be competitors.
+   However, One ISP has a lot of "eyeball" customers on the East coast,
+   that is, end users on cable modems or DSL links.  The other has a
+   large eyeball market on the West coast.  Neither have a dominant
+   position in the "content" market, that is the stuff the eyeball
+   customers tend to access such as web content, multimedia services
+   or game servers.  They are deciding whether to "peer", that is,
+   exchange routes and traffic with each other.  Discuss why this may
+   be useful, not useful and what strategies either ISP may want to
+   embark on to obtain a competitive advantage over the other.
+
+3. A financial services company has been allocated an IPv4 /22 prefix
+   by it's sole upstream ISP out of the ISP's larger allocation.  One
+   day it is discovered that some other ISP, in another country, begins
+   announcing the four more specific /24's from that /22, causing
+   major problems for the financial services company.  Discuss what
+   happens when this occurs, what can be done about it in the short
+   term and what can be done about it in the long term.
+
+4. An international mobile phone operator is anticipating a marked
+   rise in Internet-capable devices to a growing consumer market.  It
+   would like to have a large number of public IP addresses for this
+   new service offering and the anticipated growth.  However, with the
+   free pool IPv4 addresses practically exhausted, they are
+   contemplating how they can best role out this new service at a
+   reasonable cost and minimal complexity.  Discuss the challenges and
+   potential solutions to deploying a large number of new, public end
+   systems in a scenario such as this.
+
+5. You run a large state-wide network that supports government and
+   public institutions (e.g. museums, schools, libraries).  There are
+   dozens of routers dispersed throughout the state with little to
+   no "remote hands" service in case of disruption other than being
+   able to walk a local site contact through the most basic of tasks
+   such as rebooting a system or being your local eyes and hands to
+   do basic troubleshooting.  There are multiple connections from some
+   of the larger sites to external ISP networks for connectivity.
+   Discuss the likely physical connectivity of such a network as well
+   as the routing strategy.  What routing protocol(s) might be used
+   or not, and how.  Also consider a proposal whereby at each site
+   where external connectivity comes in, the site router will
+   "re-advertise" BGP routes from the ISP to the internal network.
+   What would that look like?  How would it work?  What it work?
+
+6. You are a DNS services provider, prepared to go head-to-head with
+   the likes of OpenDNS and Google DNS.  You have a limited, but pretty
+   substantial budget to get the deployment started.  Eventually you
+   would like to offer DNS service around the globe.  Detail how you
+   might go about rolling out this service considering network design,
+   cost considerations and performance goals (hint: low latency, local
+   access to your DNS infrastructure is key).
+
+7. A remote, otherwise anonymous small to medium network has been
+   announcing prefixes which were not originally assigned to it.  Some
+   prefixes have been unused in the public Internet for a long time.
+   Other times some prefixes the network has originated have been
+   claimed by the network to be "leaks" as a result of customers or
+   "legacy" configurations of re-using public address space.  They
+   usually have them stop after some time has passed and complaints
+   have been lodged, but their continued behavior is worrying suspect.
+   What do you do?  What can you do if anything?
+
+8. You are an .edu and you have two significant BGP peers.  One is a
+   commercial (aka commodity) ISP that provides reachability to what
+   is essentially the entire Internet.  It is a good ISP, but they
+   are expensive and using them cost money.  The other peer is to a
+   research network, which has an incredibly high-speed backbone and
+   those participating on that research network are very well
+   connected and have low latency between each other.  You obtain
+   funding on a yearly basis from various research grants and are
+   expected to maintain this connection.  The good news is that the
+   R&E capacity is seemingly unlimited and costs are stable and
+   manageable.  The bad news is that only R&E institutions are on
+   this network, which is about 10%-20% of your traffic, but which
+   isn't bad.  How do you make use of the R&E network as much as
+   possible?  How might you continue to design your network to offload
+   traffic from the expensive commodity network?
+
+$Id: routing-worksheet.txt,v 1.1 2016/10/10 15:22:42 jtk Exp $
