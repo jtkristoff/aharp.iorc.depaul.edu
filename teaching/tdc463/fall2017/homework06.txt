@@ -1,0 +1,82 @@
+TDC 463                       Student Name:
+Homework 06
+Due by 2017-10-24 @ 5:45 pm
+
+Submit to D2L <http://d2l.depaul.edu>.
+
+Plain text (.txt) is vastly preferred over Microsoft Word documents,
+PDF, RTF or other formats.  I should be able to deal with most anything
+that is in common use.
+
+Associated Reading and Reference Material:
+
+  From Comer:
+    Chapter 10: User Datagram Protocol (UDP)
+    Chapter 11: Reliable Stream Transport Service (TCP)
+
+  From Dordal:
+    <http://intronetworks.cs.luc.edu/current/html/udp.html>
+    UDP Transport
+
+    <http://intronetworks.cs.luc.edu/current/html/tcp.html>
+    TCP Transport
+
+  The Transmission Control Protocol:
+    <http://condor.depaul.edu/jkristof/technotes/tcp.html>
+
+  TCP Congestion Control:
+    <http://condor.depaul.edu/jkristof/technotes/congestion.pdf>
+
+
+
+Homework:
+
+Q1. On a Microsoft, Apple OS X, and Linux system, there is a file
+    used by the local operating system and TCP/IP protocol stack
+    to associate a port number with an application name.  Using
+    one of those three operating systems, identify where the the
+    full file path is to this file.  Then, identify approximately
+    how many uncommented entries are contained within this file.
+    Finally, identify a port number and application from this page
+    that is not in your services file:
+
+      <https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml>
+
+
+Q2. Assuming no network interference (e.g. firewalls) or unusual TCP/IP
+    stack configuration, what should a TCP/IP host do when it receives
+    a UDP message on a port where there is no corresponding listening
+    UDP service?
+
+
+
+Q3. Assuming no network interference (e.g. firewalls) or unusual TCP/IP
+    stack configuration, what should a TCP/IP host do when it receives
+    a TCP SYN message on a port where there is no corresponding listening
+    service?
+
+    ___ a. Respond with a TCP SYN/ACK indicating an error condition
+
+    ____b. Return a TCP RST
+
+    ___ c. Return a ICMP port unreachable message
+
+    ___ d. Silently discard the message
+
+
+
+Q4. Many applications have been implemented to operate over both TCP
+    and UDP (e.g. DNS).  Can you name another application that operates
+    over both?  Can you name one that is known to operate only over TCP?
+    How about one that is known to operate only over UDP?
+
+
+
+Q5. On your own system (Microsoft Windows, Apple OS X, or Linux), from
+    the command line, run:
+
+      netstat -an | more
+
+    Research what each line of output involving UDP or TCP means and
+    describe what you've found your system is currently doing.  Do no
+    more than 10 if you have more than that.
