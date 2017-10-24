@@ -1,0 +1,64 @@
+TDC 463        2017-10-17 Quiz #6           Student Name:
+
+
+1. Which sequence of events is most likely to occur before any of the
+   others when a BGP peering session is first established?
+
+   ___ a. BGP KEEPALIVE messages are exchanged
+
+   ___ b. BGP OPEN messages are exchanged
+
+   ___ c. BGP UPDATE messages are exchanged
+
+   ___ d. TCP sequence numbers are exchanged
+
+
+
+2. Which is not a basis for BGP to make a route selection?
+
+   ___ a. LOCAL_PREF
+
+   ___ b. MULTI_EXIT_DISC (MED)
+
+   ___ c. AS path prepend
+
+   ___ d. best unicast routing node (BURN)
+
+
+
+3. Which two IPv4 header fields will always be updated when a packet
+   crosses a router?
+
+   ___ a. checksum and TTL
+
+   ___ b. IHL and Type of Service
+
+   ___ c. TTL and source address
+
+   ___ d. Options and Type of Service
+
+
+
+4. Which acronym, term or phrase best summarizes BGP's routing algorithm?
+
+   ___ a. Link-state
+
+   ___ b. Distance-vector
+
+   ___ c. DUAL
+
+   ___ d. Path-vector
+
+
+
+5.  When a router has a packet that it would forward, but can't because
+    the IPv4 TTL (or IPv6 hop limit) is zero, what will (should) the
+    router normally do?
+
+    ___ a. Tunnel the packet in a new IPv6 packet
+
+    ___ b. Flood the packet out all local interfaces
+
+    ___ c. Return an ICMP time exceeded message to the source
+
+    ___ d. Increment the value just enough to reach the destination

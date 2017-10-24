@@ -1,0 +1,67 @@
+TDC 463                       Student Name:
+Homework 07
+Due by 2017-10-31 @ 5:45 pm
+
+Submit to D2L <http://d2l.depaul.edu>.
+
+Plain text (.txt) is vastly preferred over Microsoft Word documents,
+PDF, RTF or other formats.  I should be able to deal with most anything
+that is in common use.
+
+Associated Reading and Reference Material:
+
+  From Comer:
+    Chapter 23: The Domain Name System (DNS)
+
+  From Dordal:
+    <http://intronetworks.cs.luc.edu/current/html/ipv4.html#dns>
+    DNS
+
+  Research paper:
+    Impact of Configuration Errors on DNS Robustness
+    <https://dl.acm.org/citation.cfm?id=1015503>
+    <http://tdc.iorc.depaul.edu/media/dns-robustness.pdf> (local copy)
+
+Homework:
+
+Q1. How many Internet (ICANN) root server instances are there?
+
+    ___ a. 1
+
+    ___ b. 13
+
+    ___ c. 128
+
+    ___ d. varies at any given time
+
+
+
+Q2. What are the authoritative name servers for depaul.edu?  How did
+    you find this information?
+
+
+
+
+
+Q3. If the RDATA of the aharp.iorc.depaul.edu A RR is 140.192.218.132
+    the RDATA of the PTR RR for aharp.iorc.depaul.edu contains:
+
+    ___ a. 132.218.192.140.in-addr.arpa.
+
+    ___ b. 132.128/25.218.192.140.in-addr.arpa.
+
+    ___ c. 2.9.a.b.1.a.c.b.5.f.8.1.7.a.0.c.5.1.1.2.0.5.2.2.0.0.0.0.0.2.6.2.ip6.arpa.
+
+    ___ d. trick question, there is no PTR RR for aharp.iorc.depaul.edu
+
+
+
+Q4. In the research paper reading this week, review the Lame Delegation
+    section.  Now consider "cdm.depaul.edu", a zone specific to the CDM
+    department.  Are any of the name servers lame?  If so, which one(s)
+    and why?
+
+
+
+Q5. Find the most recent published IETF RFC from the dnsop working group.
+    What is it?  List the title, RFC number and date published.

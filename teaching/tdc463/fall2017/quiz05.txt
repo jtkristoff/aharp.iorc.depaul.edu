@@ -1,0 +1,66 @@
+TDC 463        2017-10-10 Quiz #5           Student Name:
+
+
+1. What underlying technique did/does UTRS use to mitigate threats/attacks?
+
+   ___  a. Stateful firewalls
+
+   ___  b. BGP remote-triggered black hole (RTBH)
+
+   ___  c. DNS sink holes
+
+   ___  d. IP quality of service (QoS)
+
+
+
+2. Which of the following is not a typical IGP?
+
+   ___  a. RIP
+
+   ___  b. OSPF
+
+   ___  c. IS-IS
+
+   ___  d. BGP
+
+
+
+3. Given the destination address 192.0.2.1, which prefix best matches?
+
+   ___  a. 0.0.0.0/0
+
+   ___  b. 192.0.2.0/24
+
+   ___  c. 192.0.2.0/23
+
+   ____ d. 192.0.2.0/32
+
+
+
+4. Which underlying protocol does BGP directly run over (on top of)?
+
+   ___  a. IP
+
+   ___  b. UDP
+
+   ___  c. IGMP
+
+   ___  d. TCP
+
+
+
+5. Which best captures the main idea of the end-to-end argument?
+
+   ___  a. Functionality should be moved downward in a layered system,
+           away from the application that uses that functionality.
+
+   ___  b. Functionality should be moved upward in a layered system,
+           closer to the application that uses that functionality.
+
+   ___  c. Functionality is best duplicated throughout the network and
+           at multiple layers in a layered system to maximize redundancy
+           and reliability.
+
+   ___  d. The network should be "stupid".  No intelligence should be
+           placed into the "middle boxes", but instead should only ever
+           exist at the ends.
