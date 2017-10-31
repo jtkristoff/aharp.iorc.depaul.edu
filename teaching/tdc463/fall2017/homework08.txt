@@ -1,0 +1,78 @@
+TDC 463                       Student Name:
+Homework 08
+Due by 2017-11-07 @ 5:45 pm
+
+Submit to D2L <http://d2l.depaul.edu>.
+
+Plain text (.txt) is vastly preferred over Microsoft Word documents,
+PDF, RTF or other formats.  I should be able to deal with most anything
+that is in common use.
+
+Associated Reading and Reference Material:
+
+  From Comer:
+    Chapter 23: The Domain Name System (DNS)
+
+  From Dordal:
+    <http://intronetworks.cs.luc.edu/current/html/ipv4.html#dns>
+    DNS
+
+  Other:
+    IETF RFC 7873 - Domain Name System (DNS) Cookies
+    <https://tools.ietf.org/html/rfc7873>
+
+    Understanding the Role of Registrars in DNSSEC Deployment
+    <https://users.cs.duke.edu/~bmm/assets/pubs/ChungR-DCLMMW17.pdf>
+
+    Securing BGP - A Literature Survey
+    <http://www.potaroo.net/papers/BGP_Security_Literature_Review.pdf>
+
+Homework:
+
+Q1.  Is the DNS Cookies specification effective in mitigating DNS-based
+     amplification and reflection attacks?  If so, how?  If not, why not?
+     Can you find DNS software that implements DNS Cookies?
+
+
+
+
+
+Q2. In the IMC 2017 paper (Role of Registrars in DNSSEC Deployment), the
+    blame for the lack of DNSSEC progress it is suggested is due to the
+    lack of registrar support.  However, doesn't this lead to a more basic
+    question, why is registrar support lacking?  After considering the
+    challenges of DNSSEC deployment from this paper and other background
+    material, devise an argument on why registrars are slow to promote,
+    develop, and encourage DNSSEC deployment.
+
+
+
+
+
+
+Q3. BGPSEC is a suite of security mechanisms that aim to provide similar
+    sorts of protection to routing that DNSSEC provides to the naming
+    infrastructure.  Evaluate the state of BGPSEC deployment compared to
+    DNSSEC.  Do they face similar challenges?  Would you expect one or
+    the other to ultimately be more successful, or more widely adopted
+    than the other?  Why or why not?  Hint: RPKI is often the specific
+    technology that is being deployed today for BGPSEC.
+
+
+
+
+
+Q4. If you queried a particular resolver and issued random A queries for
+    any name and always got back the same IPv4 address as an answer,
+    what is the most likely explanation for this behavior?  Note: you
+    can try this by aiming queries at tdc.iorc.depaul.edu.
+
+
+
+
+
+Q5. In our discussion about DNS over TCP I attempted to convince you
+    that DNS over TCP queries and answers ought to be permitted wherever
+    DNS over UDP queries and answers are permitted generally.  What did
+    you find most compelling about this argument?  Least compelling?
+    What would make the argument stronger or weaker?

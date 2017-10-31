@@ -1,0 +1,65 @@
+TDC 463        2017-10-24 Quiz #7           Student Name:
+
+
+1. You receive the following BGP announcements from three different
+   peers.  Which route would you prefer when forwarding a datagram
+   to the destination 192.0.2.1?  Assume the default LOCAL-PREF
+   value is 100 is not specified and there is no MED value unless
+   specified.
+
+   ___ a. 192.0.2.0/24 AS-PATH: 4,3,2,1 MED: 100, LOCAL-PREF: 200
+
+   ___ b. 192.0.2.0/23 AS-PATH: 1
+
+   ___ c. 192.0.2.0/25 AS-PATH: 8,9,10,15,255,3829,33
+
+   ___ d. 0.0.0.0/0 AS-PATH: 11 MED: 200, LOCAL-PREF: 300
+
+
+
+2. In the context of the guest lecturer's (Vince Celindro) lecture
+   last week, what does SP stand for?
+
+   ___ a. Spanning Protocol
+
+   ___ b. Service Provider
+
+   ___ c. Security Provisioning
+
+   ___ d. Small Packets
+
+
+
+3. Which protocol is best described as a layer 2 1/2 protocol?
+
+   ___ a. UDP
+
+   ___ b. Ethernet
+
+   ___ c. BGP
+
+   ___ d. MPLS
+
+
+
+4. How many bits make up a UDP header?
+
+   ___ a. 16
+
+   ___ b. 32
+
+   ___ c. 64
+
+   ___ d. variable due to options field
+
+
+
+5. Which best completes the sentence.  In IP routing, the most specific prefix
+
+   ___ a. is a /0 prefix.
+
+   ___ b. is discarded if there is a less specific prefix already available.
+
+   ___ c. will be the one with the shortest AS-PATH or lowest cost/weight.
+
+   ___ d. wins.
