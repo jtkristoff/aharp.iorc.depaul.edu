@@ -1,0 +1,61 @@
+TDC 463        2017-10-31 Quiz #8           Student Name:
+
+
+1. What DNS resource record (RR) types map names to IP addresses?
+
+   ___ a. A and AAAA
+
+   ___ b. A32 and A128
+
+   ___ c. A4 and A6
+
+   ___ d. IP4 and IP6
+
+
+
+2. Select the statement that is true about DNS over TCP.
+
+   ___ a. DNS over TCP should be prohibited by all networks
+
+   ___ b. DNS over TCP traffic is more common than DNS over UDP traffic
+
+   ___ c. DNS over TCP does not work for Microsoft Windows
+
+   ___ d. DNS over TCP is sometimes used to mitigate DNS over UDP DDoS
+
+
+
+3. Which Unix-based, common command line tool would be best to use for
+   troubleshooting complex DNS scenarios?
+
+   ___ a. dig
+
+   ___ b. ping
+
+   ___ c. ssh
+
+   ___ d. gpg
+
+
+
+4. Which DNS header flag is used by a DNS query client to request recursion?
+
+   ___ a. aa
+
+   ___ b. do
+
+   ___ c. ra
+
+   ___ d. rd
+
+
+
+5. The DNS RR TTL field is used to
+
+   ___ a. Limit how long an answer can be cached for
+
+   ___ b. Notify a client how many seconds a DNS server will remain online
+
+   ___ c. Limit how long a query can go unanswered
+
+   ___ d. Limit the number of DNS servers a query will be sent to
