@@ -1,0 +1,69 @@
+TDC 463                       Student Name:
+Homework 09
+Due by 2017-11-14 @ 5:45 pm
+
+Submit to D2L <http://d2l.depaul.edu>.
+
+Plain text (.txt) is vastly preferred over Microsoft Word documents,
+PDF, RTF or other formats.  I should be able to deal with most anything
+that is in common use.
+
+Associated Reading and Reference Material:
+
+  From Comer:
+    Chapter 29: Internet Security and Firewall Design (IPsec, SSL)
+
+  From Dordal:
+    <http://intronetworks.cs.luc.edu/current/html/security.html>
+    Security
+
+  Other:
+    Security Problems in the TCP/IP Protocol Suite
+    <https://www.cs.columbia.edu/~smb/papers/ipext.pdf>
+
+    <https://www.christian-rossow.de/publications/amplification-ndss2014.pdf>
+    Amplification Hell: Revisiting Network Protocols for DDoS Abuse
+
+Homework:
+
+Q1.  One of the first widely used packet amplification and reflection
+     attacks was commonly known as the "smurf attack".  Neither the
+     early Bellovin paper or the more recent Rossow paper mention it.
+     What is the smurf attack and why do you suppose it was not
+     mentioned in either of the two papers?
+
+
+
+Q2.  Visit <https://crt.sh> and put 'aharp.iorc.depaul.edu' without into
+     the text book and search.  Examine the results.  What is this thing
+     and what is the specific thing you're looking at after entering the
+     domain name into the text box?  Hint, OCSP.
+
+
+
+Q3.  What is the SSH implementation that comes with Unix (Apple Mac OS X
+     and Linux) called?  What is the most currently released version from
+     the original development site today?
+
+
+
+Q4.  Using pseudo code, Cisco ACL syntax, or something similar firewall
+     instructions, write a packet filter rule set that would enforce the
+     following traffic flow (note, assume stateless rules only):
+
+       INBOUND: Do not allow access to any well known privilege ports on
+                any hosts.  Allow ping, pong, destination unreachable,
+                and time-exceeded messages.  Block any IRC traffic.
+
+       OUTBOUND: Do not allow internal systems to run any servers on
+                 the well known ports.  Allow ping, pong, destination
+                 unreachable and time-exceeded messages.  Block any IRC
+                 traffic.
+
+      Discuss any potential weaknesses in your rule set if someone is
+      determined to circumvent them your filters.
+
+
+
+
+Q5. What might a DNS 'CH TXT version.bind' query provide you?
