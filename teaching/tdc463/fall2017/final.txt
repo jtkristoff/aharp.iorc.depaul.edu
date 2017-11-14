@@ -1,0 +1,480 @@
+
+
+
+TDC 563                        Student Name:
+Final Exam
+Due: 2017-11-24 @ 5:45 PM US CST
+
+ * You have a little over one week to work on this exam
+ * By taking this exam, you agree to perform the work yourself
+ * You may use the course book, your notes and other class materials
+ * You may NOT enlist the help of any one or any forum
+ * You will claim sole authorship of this submission
+ * Review the university academic integrity policy, sanctions may be severe
+
+1. Match the best description on the right with the item on the left that is
+   best associated with that description.  (10 points, partial credit given).
+
+
+   ___ 5                  a. You'd say this instead of saying 'Class C'
+
+   ___ 256                b. Minimum decimal value of the IPv4 IHL field
+
+   ___ UDP                c. The transport protocol used by BGP
+
+   ___ 0                  d. This transport protocol has a fixed 8-byte header
+
+   ___ 1                  e. The least specific IP address prefix
+
+   ___ TCP                f. A loopback address in IPv6
+
+   ___ ::1                g. IPv4 limited local broadcast address
+
+   ___ /24                h. Maximum number of /32's that fit into a /24
+
+   ___ 255.255.255.255    i. The initial IPv4 TTL value used when traceroute starts
+
+   ___ /0                 j. This DNS TTL value suggests the RR not be cached
+
+
+
+2. If a UDP DNS query receives a response with the [tc] bit set (tc=1),
+   the querier generally would resend the query using TCP.  True or
+   false.  (1 point)
+
+
+
+3. Per IETF RFC 7766 DNS implementations (e.g. resolvers) are instructed
+   to implement DNS over TCP.  In other words, DNS over TCP is not optional.
+   Almost all implementations in fact adhere to this specification.  When
+   a DNS resolver (stub, full/caching or otherwise) issues an initial query
+   for a name it wants or is asked to resolve, does the query process start
+   with UDP, TCP or does it vary?  Conduct your research and summarize your
+   results below.  Please cite any references.  (3 points)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. A full resolver has the following information about a name cached:
+
+      name: www.example.org
+     class: IN
+      type: A
+       TTL: 295
+      data: 192.0.2.1
+
+   If after exactly three minutes a stub resolver asks the following
+   question of that full resolver:
+
+      name: www.example.org
+     class: IN
+      type: A
+
+   What answer/response would you expect the full resolver to provide?
+   Assume no particular limiting security policies are in place.  Select
+   one answer.  (2 points)
+
+   ___ a. NXDOMAIN (answer not available)
+
+   ___ b. data: 192.0.2.1, TTL: 295
+
+   ___ c. data: 192.0.2.1, TTL: 115
+
+   ___ d. referral to example.org NS RRset
+
+
+
+5. Which section(s) of a DNS message will always be present in both
+   queries and answers?  Select one answer.  (2 points)
+
+   ___ a. Header
+
+   ___ b. Header, Question
+
+   ___ c. Header, Question, Answer
+
+   ___ d. Header, Question, Answer, Authority
+
+   ___ e. Header, Question, Answer, Authority, Additional
+
+
+
+6. Imagine a caching full resolver that does not currently have any
+   cached information.  Further imagine that it receives a query from
+   a stub resolver (rd=1) for:
+
+     www.example.org. IN A
+
+   What would you expect the caching full resolver to do?  Assume no
+   particular limiting security policies are in place.  Select one.
+   (2 points)
+
+   ___ a. Return a referral for the root zone NS RRset to the stub
+
+   ___ b. Return a referral for the org. zone NS RRset to the stub
+
+   ___ c. Return a NOTIMP response to the stub
+
+   ___ d. Ask the root server for the A type IN class data of www.example.org.
+
+
+
+7. Which statement is false?  Select one.  (1 point)
+
+   ___ a. All else being equal and valid, a router will select a matching
+          /25 prefix over a matching /24 prefix
+
+   ___ b. A BGP router can send an announcement and withdrawal in one update
+
+   ___ c. The TCP MD5 authentication mechanism encrypts route data in transit
+
+   ___ d. The first 128 bits of all BGP messages are effectively unused
+
+
+
+8. Discuss ways to harden the resiliency of the DNS to packet flooding
+   (i.e. amplification and reflection) attacks.  Discuss knobs, features
+   or mechanisms in the protocol that allow you to proactively or reactively
+   mitigate such attacks.  (3 points)
+
+
+
+
+
+
+
+
+
+
+9. If a TCP sender transmits a segment with 50 bytes of payload data and
+   a sequence number of 4926593, what is the maximum acknowledgment number
+   the receiver can return after receiving that segment?  Assume no later
+   segments have been sent.  (1 point)
+
+
+
+10. Which best describes what a host should return when receiving a TCP
+    SYN segment on a closed (no listening service) port?  (1 point)
+
+    ___ a. ICMP port unreachable
+
+    ___ b. TCP FIN
+
+    ___ c. TCP RST, ACK
+
+    ___ d. TCP SYN, RST, FIN, ACK
+
+
+
+11. Fill in the blanks with the most appropriate word, phrase, value
+    or acronym.  (1 point each, partial credit given)
+
+
+    The __________________ resolver is a class of DNS resolvers most
+
+
+    often found on end clients, while recursive caching servers are
+
+
+    deployed in networks to be shared by a group of users.  DNS servers
+
+
+    listen on port number ______________ by default.  The uppermost
+
+
+    hierarchy of the DNS name space is called the _________________
+
+
+    zone.  Many DNS server operators, particularly in the upper hierarchy
+
+
+    of the name space employ a technology called _________________ which
+
+
+    can help improve reliability and availability by replicating DNS
+
+
+    service in a geographically diverse manner with minimal special
+
+
+    hardware or protocol mechanisms.  This deployment approach has
+
+
+    proved especially useful when open resolvers are being used to
+
+
+    launch ______________________ and reflection DDoS attacks against
+
+
+    other DNS servers.
+
+
+
+12. Shown is the layout of an unlabeled DNS header.  Each field is
+    marked with a letter.  Fill in the lettered list below with the
+    associated field name or abbreviation.  (1 point each, partial
+    credit given)
+
+        0  1  2  3  4  5  6  7  8  9  0  1  2  3  4  5
+       +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+       |                       a                       |
+       +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+       |b |     c     |d |e |f |g |   h    |     i     |
+       +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+       |                       j                       |
+       +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+       |                       k                       |
+       +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+       |                       l                       |
+       +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+       |                       m                       |
+       +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+
+    a. ________________________         h. Z reserved (and DNSSEC bits)
+
+
+    b. QR (query/response)              i. ________________________
+
+
+    c. OPCODE                           j. ________________________
+
+
+    d. ________________________         k. ________________________
+
+
+    e. TC (truncated bit)               l. ________________________
+
+
+    f. ________________________         m. ARCOUNT (additional RR count)
+
+
+    g. ________________________
+
+
+
+13. Describe how traceroute works.  Use an illustrative example that
+    involves a client running traceroute and a distant, target system.
+    Discuss protocols, responses, and error conditions that may lead
+    to correct or incorrect results.  (5 points, partial credit given)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14. Imagine a scenario where an originator of an IPv4 /16 prefix
+    has a portion of their address space, an important /24 slice,
+    announced by an unauthorized network halfway around the world.
+    Discuss what happens, how this will likely be discovered, how
+    it might be re-actively addressed and proactively mitigated in
+    the future. (5 points, partial credit given)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15. Assume the UDP and TCP specifications could have a leisurely
+    conversation between themselves.  Further assume they must
+    speak truthfully.  For each of the following statements, write
+    a 'U' if it is something UDP would say or write a 'T' if it is
+    something TCP would say.  (1 point each)
+
+    ___  a. I don't have no stinkin' flow control
+
+    ___  b. I love my 3-way handshake
+
+    ___  c. My header is larger than your header
+
+    ___  d. NTP, SNMP, Syslog and TFTP love me best
+
+
+
+16. Complete the sentence below with the best ending.  (1 point)
+
+    The window advertised by a TCP receiver...
+
+    ___ a. indicates how many bytes the receiver has acknowledged.
+
+    ___ b. tells the sender the number of bytes it saw in a packet.
+
+    ___ c. is the round trip time calculated from the last packet.
+
+    ___ d. says how many more bytes the receiver is willing to accept.
+ 
+    ___ e. specifies the maximum number of packets a receiver will accept.
+
+    ___ f. is the time remaining until the connection is automatically closed.
+
+
+
+17. Who was our final guest lecturer (November 21) and in two or three
+    sentences, what was the topic of the discussion?  (1 point)
+
+
+
+18. On an IPv4 network, could you figure out the size of a UDP message
+    without looking at the UDP header?   If so, how?  If not, how do you
+    determine the UDP payload size?  (2 points)
+
+
+
+
+
+19. Given the domain name foo.bar.example.net what is the top level
+    domain? (1 point)
+
+    ___ a. [.] (root)
+
+    ___ b. .net
+
+    ___ c. example.net
+
+    ___ d. bar.example.net
+
+    ___ e. foo.bar.example.net
+
+
+
+20. What would be the directed broadcast address of each of the following
+    net blocks.  Give your answer in dotted decimal notation.  (1 point each)
+
+    a. 140.192.200.160/28
+
+    b. 192.0.2.0/27
+
+    c. 10.0.245.0/23
+
+    d. 1.0.0.0/8
+
+
+
+21. If an IPv4 receiver calculates a different value for the checksum
+    field than what it received, what should the receiver do? (1 point)
+
+    ___ a. Signal an error to the user application it was going to
+
+    ___ b. Forward the datagram to the default router
+
+    ___ c. Silently discard the datagram
+
+    ___ d. Request a re-transmission from the original source
+
+
+
+22. True or false?  The IPv4 0.0.0.0/0 prefix contains more addresses than
+    an IPv6 /64 prefix. (1 point)
+
+
+
+23. Briefly explain what the Conficker C Sinkhole (DNS Hijack) is and
+    how it proved useful. (2 points)
+
+
+
+
+
+
+
+
+
+
+24. Which fields of an IPv4 datagram will (or certainly should) always
+    change (be updated) as the datagram passes through each IP router on
+    the path to a destination?  (2 points, partial credit given)
+
+
+
+
+
+
+25. In essay form, explain how the Internet works.  Focus on the core
+    protocols and systems that enable the movement of communications,
+    not the applications used directly by end users.  Obviously you
+    might be able to write a book, but please don't.  I suggest you
+    outline the main protocols and subsystems and talk about how they
+    are used and why.  You don't need to get into the packet formats
+    or regurgitate the standards.  This is to see if you can convey a
+    sense of understanding about networking and how networks work.  Do
+    use real world examples!  Do use your own words.  Plagiarism is an
+    automatic zero and you can expect to be subject to an academic
+    integrity report being filed against you if you violate the school's
+    academic integrity policy.  (10 points total, partial credit given)
+
+
+
+
+
+Optional Bonus Question #1 (1 point)
+
+How many routers, at most, will forward an IPv4 datagram with a
+destination address of 255.255.255.255 and an IPv4 TTL of 33.
+
+
+
+Optional Bonus Question #2 (2 points)
+
+Assume a host with address 192.0.2.1 is configured with a subnet
+mask of 255.255.255.128 and the default router for that network
+has the address 192.0.2.56 with subnet mask 255.255.255.0.  That
+is, the end host has a misconfigured network mask for the network.
+Assuming the router and connectivity to other networks is fine,
+will the end host at 192.0.2.1 be able to talk to 140.192.1.6?
+What about when 192.0.2.1 tries to talk to a host at 192.0.2.250,
+will that work?  Answer both correctly for full credit (e.g. no/no,
+no/yes, yes/no, yes/yes).  Feel free to elaborate if you must.
+
+
+
+
+Optional Bonus Question #3 (2 points)
+
+People often post packet dumps on line for troubleshooting assistance.
+Here is an example of someone trying to hide a destination IP address.
+Recover the original destination address in dotted decimal notation.
+
+  09:39:07.148532 65.197.243.120.2557 > mercury.80: S [tcp sum ok]
+         263101219:263101219(0) win 8192 <mss 1380> (DF) (ttl 106,
+         id 39171, len 44)
+  0x0000         4500 002c 9903 4000 6a06 b6eb 41c5 f378
+  0x0010         839c 0803 09fd 0050 0fae 9b23 0000 0000
+  0x0020         6002 2000 027b 0000 0204 0564 0000
+
+  Destination address = __________________________________
