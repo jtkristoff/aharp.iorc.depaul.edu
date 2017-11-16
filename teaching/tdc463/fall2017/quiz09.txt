@@ -1,0 +1,62 @@
+TDC 463        2017-11-07 Quiz #9           Student Name:
+
+
+1. Which DNS service will send query messages with the rd bit set?
+
+   ___ a. An authoritative server
+
+   ___ b. A full resolver
+
+   ___ c. A stub resolver
+
+   ___ d. A root server
+
+
+
+2. Which of the following is a sane combination of DNS header flags?
+
+   ____ a. A resolver sending a query with the ra and rd bits set to 1
+
+   ____ b. A resolver sending a query with the rd and tc bits set to 1
+
+   ____ c. A resolver sending a query with the aa and rd bits set to 1
+
+   ____ d. A resolver sending a query with aa, ra, rd and tc bits set to 0
+
+
+
+3. When a resolver sends a query such as 'IN A www.depaul.edu' to a root
+   server, what is most likely to happen?
+
+   ___ a. The root server will respond with an IPv4 address answer
+
+   ___ b. The root server will return a REFUSED response
+
+   ___ c. The root server will return an NS RRset for edu.
+
+   ___ d. The root server will silently discard the query
+
+
+
+4. What would be considered the top-level domain (TLD) of the name
+   www.foo.bar.example?
+
+   ___ a. . (the root label)
+
+   ___ b. example
+
+   ___ c. foo
+
+   ___ d. www
+
+
+
+5. Which command would display the NS RRset for the root?
+
+   ___ a. dig ns .
+
+   ___ b. dig ns root
+
+   ___ c. dig named.root
+
+   ___ d. dig ns default
